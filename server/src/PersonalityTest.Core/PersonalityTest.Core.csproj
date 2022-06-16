@@ -4,4 +4,15 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\PersonalityTest.Data\PersonalityTest.Data.csproj" />
+      <ProjectReference Include="..\PersonalityTest.Shared\PersonalityTest.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.Extensions.Options">
+        <HintPath>..\..\..\..\..\..\..\usr\local\share\dotnet\shared\Microsoft.AspNetCore.App\3.1.25\Microsoft.Extensions.Options.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>
