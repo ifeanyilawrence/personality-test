@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalityTest.Shared", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalityTest.Data", "PersonalityTest.Data\PersonalityTest.Data.csproj", "{4CB5CAF9-1F82-4D6B-B811-61E91B042A8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalityTest.Api.Tests", "..\tests\PersonalityTest.Api.Tests\PersonalityTest.Api.Tests.csproj", "{B727A5C3-8BEA-4C98-88B0-2FA98C8C8468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalityTest.Core.Tests", "..\tests\PersonalityTest.Core.Tests\PersonalityTest.Core.Tests.csproj", "{1FF91DDB-6EDD-4721-BC3D-7DEF7A5705C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{4CB5CAF9-1F82-4D6B-B811-61E91B042A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CB5CAF9-1F82-4D6B-B811-61E91B042A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CB5CAF9-1F82-4D6B-B811-61E91B042A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B727A5C3-8BEA-4C98-88B0-2FA98C8C8468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B727A5C3-8BEA-4C98-88B0-2FA98C8C8468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B727A5C3-8BEA-4C98-88B0-2FA98C8C8468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B727A5C3-8BEA-4C98-88B0-2FA98C8C8468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF91DDB-6EDD-4721-BC3D-7DEF7A5705C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF91DDB-6EDD-4721-BC3D-7DEF7A5705C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF91DDB-6EDD-4721-BC3D-7DEF7A5705C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF91DDB-6EDD-4721-BC3D-7DEF7A5705C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
