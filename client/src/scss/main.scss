@@ -1,9 +1,4 @@
-.App {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-body {
-    background: linear-gradient(to right, #8A3FFC 0%, #D90A9D 100%);
-}
+@import "abstract/_index";
+@import "base/_index";
+@import "components/_index";
+@import "pages/_index";

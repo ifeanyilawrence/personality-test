@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../../public/fonts/Poppins-Light.ttf');
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.heading-primary {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.heading-secondary {
+    font-size: 3rem;
+    font-weight: 600;
+}
