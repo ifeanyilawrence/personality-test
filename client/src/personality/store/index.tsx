@@ -130,7 +130,7 @@ export const Provider: React.FC<ProviderProps> = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, questionState);
     let navigate = useNavigate();
 
-    let url = `${process.env.REACT_APP_API_URL}/personality`;
+    let url = `/api/personality`;
 
     useEffect(() => {
         const localStorageStore = localStorage.getItem("store");
@@ -157,18 +157,6 @@ export const Provider: React.FC<ProviderProps> = ({ children }) => {
                     console.log(err);
                 });
             }
-        } else {
-            const response = fetch(url);
-            response.then(res => res.json()).then(data => {
-                dispatch({
-                    type: actions.GET_QUESTIONS_SUCCESS,
-                    payload: data
-                });
-
-                navigate("/question");
-            }).catch(err => {
-                console.log(err);
-            });
         }
     }, []);
 
